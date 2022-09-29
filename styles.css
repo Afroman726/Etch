@@ -1,7 +1,4 @@
-:root{
-    --grid-columns:1;
-    --grid-rows:1;
-}
+
 
 body{
     display:flex;
@@ -58,23 +55,27 @@ body{
 
 #etch_Body{
     display:grid;
+   
+   column-gap:0px;
     width: 700px;
     height: 550px;
     box-shadow:rgb(0 0 0 /24%) 0px 3px 8px;
     margin:35px;
 
     
-    grid-template-columns: repeat(var(--grid-columns), 1fr);
-    grid-template-rows: repeat(var(--gird-rows), 1fr);
+   
 
 }
 
 
 .block{
+   
+    
     padding:1em;
     border: 1px solid #ddd;
     text-align: center;
     width:10px;
+    height:10px;
     
 }
 
