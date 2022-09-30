@@ -50,8 +50,15 @@ body{
    font-size: 18px;
    border-radius: 12px;
    font-family: 'Courier New', Courier, monospace;
+   cursor:pointer;
    
 }
+
+.slider{
+    background:black;
+    cursor:pointer;
+}
+
 
 #etch_Body{
     display:grid;
@@ -72,7 +79,7 @@ body{
 .block{
    
     
-    border: 1px solid #ddd;
+    
     text-align: center;
    
     
