@@ -12,7 +12,7 @@ function makerows (size) {
             square.addEventListener("mouseover", () =>{     
                 square.style.backgroundColor= 'black';
                })
-          console.log('test');
+         
 
         }
 
@@ -41,4 +41,10 @@ largeButton.addEventListener('click', () =>{
 const stupidButton = document.querySelector('#stupid');     //This is the don't click me button lol
 stupidButton.addEventListener('click', () =>{
     makerows(128);
+})
+
+const clearAll = document.querySelector('#clear');
+clearAll.addEventListener('click', () => {
+    etchBody.innerHTML = '';
+    console.log('should clear?');
 })
