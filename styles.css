@@ -55,7 +55,8 @@ body{
 
 #etch_Body{
     display:grid;
-   
+    justify-content: start;
+    
    column-gap:0px;
     width: 700px;
     height: 550px;
@@ -74,8 +75,7 @@ body{
     padding:1em;
     border: 1px solid #ddd;
     text-align: center;
-    width:10px;
-    height:10px;
+   
     
 }
 
