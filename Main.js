@@ -3,7 +3,9 @@ const etchBody = document.querySelector('#etch_Body');
 
 
 function makerows (size) {
-    
+    etchBody.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
+    etchBody.style.gridTemplateRows=`repeat(${size}, 1fr)`;
+     
         for(i=0; i < (size * size); i++){    //This part makes the sqr of the container (Legnth * Width)
             let square = document.createElement("div");
              etchBody.appendChild(square).className = "block";
@@ -11,9 +13,7 @@ function makerows (size) {
                 square.style.backgroundColor= 'black';
                 //console.log(square);
             })
-          // etchBody.style.gridTemplateColumns='1fr';
-           //etchBody.style.gridTemplateRows='1fr';
-           console.log('test');
+          
 
         }
 
@@ -21,4 +21,4 @@ function makerows (size) {
 
 
 }
-makerows(16);
+makerows(32);
