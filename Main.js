@@ -20,6 +20,13 @@ function makerows (size) {
 
 
 }
+makerows(16);
+//function eraser (){
+  //  square.addEventListener("mouseover", () =>{
+    //    square.style.backgroundColor='white';
+      //  console.log("should erase?");
+   // })
+//}
 
 //BELOW IS THE CODE FOR THE BUTTONS IN THE SETTINGS
 
@@ -46,5 +53,9 @@ stupidButton.addEventListener('click', () =>{
 const clearAll = document.querySelector('#clear');
 clearAll.addEventListener('click', () => {
     etchBody.innerHTML = '';
-    console.log('should clear?');
+})
+
+const erase = document.querySelector('#eraser');
+erase.addEventListener('click', () =>{
+    eraser();
 })
