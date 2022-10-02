@@ -54,6 +54,18 @@ body{
    
 }
 
+#sizes_Title{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+    font-size: 25px;
+    text-decoration:underline;
+    margin-bottom: 10px;
+}
+
+#sizing_Space{
+    padding-top: 0px;
+}
+
 .slider{
     background:black;
     cursor:pointer;

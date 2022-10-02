@@ -1,5 +1,6 @@
 const etchBody = document.querySelector('#etch_Body');  //Container for the Grid
 const sizeValue = document.querySelector('#size_Value');
+const rainbow = document.querySelector('#rainbow');
 
 
 function makerows (size) {
